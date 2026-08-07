@@ -298,7 +298,7 @@ Ctrl + C
 ตรวจสอบ:
 
 ```properties
-spring.datasource.url=jdbc:postgresql://localhost:5432/lab7demo
+spring.datasource.url=jdbc:postgresql://localhost:5432/lab7
 spring.datasource.username=postgres
 spring.datasource.password=YOUR_PASSWORD
 ```
@@ -340,7 +340,7 @@ mvnw spring-boot:run
 ```text
 1. เปิด PostgreSQL
        ↓
-2. สร้าง Database ชื่อ lab7demo
+2. สร้าง Database ชื่อ lab7
        ↓
 3. แก้ application.properties
        ↓
