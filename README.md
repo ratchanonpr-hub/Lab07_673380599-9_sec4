@@ -42,7 +42,7 @@ CREATE DATABASE lab7;
 ควรพบ Database:
 
 ```text
-lab7demo
+lab7
 ```
 
 ---
@@ -117,7 +117,7 @@ Password: Password ของ PostgreSQL
 ตัวอย่าง:
 
 ```properties
-spring.datasource.url=jdbc:postgresql://localhost:5433/lab7demo
+spring.datasource.url=jdbc:postgresql://localhost:5433/lab7
 ```
 
 ---
