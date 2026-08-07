@@ -30,7 +30,7 @@ mvn -version
 เปิด PostgreSQL / pgAdmin หรือใช้ `psql` แล้วสร้าง Database ชื่อ:
 
 ```sql
-CREATE DATABASE lab7demo;
+CREATE DATABASE lab7;
 ```
 
 จากนั้นตรวจสอบว่า Database ถูกสร้างแล้ว
@@ -62,7 +62,7 @@ src/main/resources/application.properties
 ```properties
 spring.application.name=demo
 
-spring.datasource.url=jdbc:postgresql://localhost:5432/lab7demo
+spring.datasource.url=jdbc:postgresql://localhost:5432/lab7
 spring.datasource.username=postgres
 spring.datasource.password=YOUR_PASSWORD
 
@@ -107,7 +107,7 @@ postgres
 ```text
 Host: localhost
 Port: 5432
-Database: lab7demo
+Database: lab7
 Username: postgres
 Password: Password ของ PostgreSQL
 ```
